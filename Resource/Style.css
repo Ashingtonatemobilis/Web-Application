@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: "Comic Sans MS";
+}
+body{
+    background-color: azure;
+}
+.form{
+    background-color: burlywood;
+    height: 100vh;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+.input_box{
+    margin-top: 10px;
+    color: blue;
+}
+.input_box-input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+::placeholder{
+    font-size: 13px;
+}
+.age{
+    color: black;
+}
+
+.btn{
+    text-align: center;
+    /padding: 20px 4px;*/
+}
+.btn input{
+    padding:0 40px;
+    background-color: darkgray;
+    color: azure;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
